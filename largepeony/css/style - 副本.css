@@ -1,6 +1,9 @@
-
 			body{
-				margin: 0 auto;
+				font: 12px 'Microsoft Yahei','Simsun';
+				background-color: #e4f4d7;
+				width:980px;
+				margin-left: auto;
+				margin-right: auto;
 			}
 			.header{
 				width:100%;
@@ -65,16 +68,20 @@
 			#slideshow_img{
 				position:relative;
 			}
-			#arrows_left{
-				position: absolute;
-				z-index: 2;
-				margin-left: 0px;
+			
+			.slideshow .slidePrev span{
+				background-image: url(../img/arrows-left.png);
+				width: 72px;
+				height: 128px;
+				float: left;
+				background-repeat: no-repeat;
+				cursor: pointer;
 			}
-			#arrows_right{
-				position: absolute;
-				z-index: 2;
-				margin-right: 0px;
+			.slideshow .slideNext span{
+				background-image: url(../img/arrows-right.png);
 			}
+			
+			
 			
 			
 			

@@ -1,0 +1,165 @@
+			.wrap{
+				clear: both;
+				overflow: hidden;
+				margin: 0 auto 0;
+				width: 1100px;
+				height: 140px;
+				background: #ffffff;
+			}
+			*{
+				margin: 0;
+				padding:0;
+			}
+			body{
+				font: 12px 'Microsoft Yahei','Simsun';
+				color:#333333;
+				background-color: #e4f4d7;
+				line-height: 180%;
+			}
+			.header{
+				width: auto;
+				height: auto;
+			}
+			.logo{
+				float: left;
+				/* width: 250px;
+				height: 80px; */
+				margin-top: 10px;
+				margin-left: 50px;
+			}
+			.logo img{
+				width: 250px;
+				height: 80px;
+			}
+			.header_cen{
+				width: auto;
+				height: 1.875rem;
+				background-color: #333333;
+			}
+			.header-right{
+				margin-top: 40px;
+				margin-right: 50px;
+				float: right;
+			}
+			.header-right span{
+				color: darkgreen;
+				font-size: 35px;
+			}
+			.nav{
+				/* clear:both; */
+				margin: 10px auto 0;
+				width: 1080px;
+				height: 40px;
+				overflow: hidden;
+				background:#469b2a;
+				font-size: 16px;
+			}
+			.nav .nav_L{
+				float: left;
+			}
+			.nav ul{
+				float:left;
+				margin-top: 10px;
+				padding:0 60px;
+				overflow: hidden;
+			}
+			ul,li{
+				list-style: none;
+			}
+			.nav ul li{
+				float:left;
+				height: 22px;
+				overflow: hidden;
+				line-height: 22px;
+				border-left: 1px solid #70b559;
+				padding: 0 30px;
+			}
+			.nav a{
+				color: #ffffff;
+			}
+			a{
+				text-decoration: none;
+			}
+			.slideshow{
+				width:1080px;
+				height:600px;
+				border:1px solid #70B559 ;
+				margin: 10px auto 0;
+			}
+			.main_LC{
+				width: 1080px;
+				height: 550px;
+				margin: 10px auto 0;
+			}
+			.main_LC .box{
+				clear:both;
+				margin: 10px auto 0;
+				width: 1080px;
+				overflow: hidden;
+				background-color:#ffffff ;
+			}
+			.main_LC .box .tit{
+				clear: both;
+				margin: 0 auto 0;
+				width: 1080px;
+				height: 40px;
+				overflow: hidden;
+				line-height: 30px;
+				background: #469b2a;
+			}
+			
+			.main_LC .box .tit ul li {
+				float: left;
+				height: 40px;
+				overflow: hidden;
+				margin-top: 5px;
+			}
+			.main_LC .box .tit ul li a{
+				color:#ffffff;
+				font-size: 18px;
+				padding-left: 20px;
+			}
+			.main_LC .box .box_con{
+				clear: both;
+				margin: 0 auto 0;
+				width: 1080px;
+				height: 500px;
+				overflow: hidden;
+				border: 1px solid #bbdaa1;
+				border-top: 0;
+			}
+			.main_LC .box .list_pic{
+				clear: both;
+				overflow: hidden;
+				float: left;
+				width: 1080px;
+				height: 500px;
+				margin-left: 15px;
+				margin-top: 15px;
+			}
+			.main_LC .box .list_pic li{
+				float: left;
+				width:200px;
+				height: 200px;
+				margin: 10px 5px 25px 5px;
+			}
+			.main_LC .box .list_pic .text {
+				text-align: center;
+			}
+			.main_LC .box .list_pic .text a{
+				color: #006600;
+				font-size: 18px;
+			}
+			
+			.footer{
+				clear: both;
+				font-size: 14px;
+				text-align: center;
+				overflow: hidden;
+				margin: 0 auto 0;
+				width:1080px;
+				background-color: #ffffff;
+			}
+				
+			
+			
